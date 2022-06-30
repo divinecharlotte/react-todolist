@@ -11,7 +11,7 @@ function Todo({
       className="todo"
     >
       {todo.text}
-      <div>
+      <div className='buttons'>
         <button onClick={() => completeTodo(index)}>completed</button>
         <button onClick={() => deleteTodo(index)}>x</button>
       </div>
@@ -29,7 +29,7 @@ function TodoForm({ addtodo }) {
     setValue('');
   };
   return (
-    <form onSubmit={handleSubmit}>
+    <form className='placeholder' onSubmit={handleSubmit}>
       <input
         type="text"
         className="input"
