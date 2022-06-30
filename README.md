@@ -1,70 +1,55 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### project screenshoot
+![todo](https://user-images.githubusercontent.com/60146030/176705839-b143b4a3-58cb-45e5-829f-0660f457b3e0.JPG)
 
-## Available Scripts
+# todo-list
 
-In the project directory, you can run:
+> This project is about building a list of To Do tasks. Where you can save your daily activities and help in daily evaluation.
 
-### `npm start`
+## Live demo 
+you van see the poject [live]()
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Built With
+-React
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Cloning the project
 
-### `npm test`
+git clone [this repo](git@github.com:divinecharlotte/react-todolist.git) 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting packages and debuging with Stylelint
 
-### `npm run build`
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##### For validation detection using Stylelint Run
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npx stylelint "\*_/_.{css,scss}"
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting packages and debuging with Webhint
 
-### `npm run eject`
+npm init -y
+npm install --save-dev hint@6.x
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+##### For validation detection using Webhint Run
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npx hint .
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Author
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+👤 **Divine Charlotte**
 
-## Learn More
+- GitHub: [@Divine](https://github.com/divinecharlotte)
+- LinkedIn: [Divine Charlotte](https://www.linkedin.com/in/charlotte-divine-dusenge-31b19017a/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🤝 Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions, issues, and feature requests are welcome!
 
-### Code Splitting
+Feel free to check the [issues page](https://github.com/divinecharlotte/react-todolist/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Show your support
 
-### Analyzing the Bundle Size
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
